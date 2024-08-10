@@ -1,0 +1,105 @@
+.two-columns-hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+  border: 2px solid #1b263b;
+  border-radius: 8px;
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.two-columns-hero__left-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.two-columns-hero__right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.two-columns-hero__title {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.two-columns-hero__subtitle {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.search-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  border: 2px solid #1b263b;
+}
+
+.search-hero__input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: #1b263b;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.search-hero__input-field {
+    width: 100%;
+    padding: 10px;
+    background-color: #1b263b;
+    border: none;
+    border-radius: 30px;
+    color: #f4f4f4;
+}
+
+.search-hero__input-field:focus {
+    outline: none;
+}
+
+.search-hero__input-field::placeholder {
+    color: #f4f4f4;
+}
+
+.search-hero__input-field:hover {
+    background-color: #30475e;
+}
+
+.search-hero__input-button {
+    padding: 10px;
+    background: linear-gradient(145deg,  #ff4d6d, #f1f7ed, #ff4d6d);
+    border: none;
+    border-radius: 30px;
+    color: #1b263b;
+    font-weight: 500;
+    background-size: 200% 200%;
+    animation: moveBg 5s infinite;
+    transition: all ease-in-out 0.25s;
+}
+
+.search-hero__input-button:hover {
+    background: linear-gradient(145deg, #ff4d6d, #f1f7ed);
+    animation: none;
+}
+
+@keyframes moveBg {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
