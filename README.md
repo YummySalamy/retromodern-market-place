@@ -2,8 +2,8 @@
 
 This project is a modern+retro marketplace design implemented using React and pure CSS. Please note that this project is currently in development, with more versions and updates coming soon.
 
-![Image 1](public/images/Image1.jpg)
-![Image 2](public/images/Image2.jpg)
+![Image 1](public/images/Image1.png)
+![Image 2](public/images/Image2.png)
 
 ## Table of Contents
 
