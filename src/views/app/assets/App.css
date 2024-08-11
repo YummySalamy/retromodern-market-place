@@ -3,6 +3,7 @@
     flex-direction: column;
     gap: 20px;
     animation: fadeIn 1.5s;
+    margin-bottom: 20px;
 }
 
 .contact {
