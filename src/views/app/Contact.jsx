@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import TwoColumnsHero from '../../components/heros/TwoColumnsHero';
+import CommunicationChannels from '../../components/banners/CommunicationChannels';
 import './assets/App.css';
 
 const Contact = () => {
@@ -55,6 +56,7 @@ const Contact = () => {
                 </button>
             </form>
             </TwoColumnsHero>
+            <CommunicationChannels />
         </section>
     )
 }
