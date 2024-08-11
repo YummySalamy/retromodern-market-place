@@ -22,6 +22,12 @@
   justify-content: center;
 }
 
+.two-columns-hero__right-column img {
+    width: 100%;
+    border: 2px solid #1b263b;
+    border-radius: 12px;
+}
+
 .two-columns-hero__title {
   font-size: 2em;
   margin-bottom: 10px;

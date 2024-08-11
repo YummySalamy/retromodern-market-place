@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import './assets/Heros.css'
 
-const TwoColumnsHero = ({ title, subtitle, children }) => {
+const TwoColumnsHero = ({ title, subtitle, children, style }) => {
     return (
-        <section className='two-columns-hero'>
+        <section className='two-columns-hero' style={style}>
             <div className='two-columns-hero__left-column'>
                 <h1 className='two-columns-hero__title'>
                     {title}

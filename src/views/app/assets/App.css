@@ -5,6 +5,43 @@
     animation: fadeIn 1.5s;
 }
 
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact__form-label {
+    font-size: 1.2em;
+    align-self: flex-start;
+}
+
+.contact__input {
+    padding: 10px;
+}
+
+.contact__textarea {
+    background: #edf2f4;
+    padding: 10px;
+    color: #22223b;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.contact__button {
+    padding: 10px;
+    background: #22223b;
+    color: #f1f7ed;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all ease-in-out 0.25s;
+}
+
+.contact__button:hover {
+    background: #1b263b;
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;

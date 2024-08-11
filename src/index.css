@@ -38,19 +38,19 @@ h1 {
 input {
   border-radius: 30px;
   background-color: #edf2f4;
-  border: 1px solid #00b4d8;
+  border: 1px solid #ddd;
   color: #001d3d;
   padding: 0.6em 1.2em;
   transition: all ease-in-out 0.25s;
 }
 
 input:focus {
-  border-color: #646cff;
+  border-color: #ff4d6d;
 }
 
 input:hover {
   background-color: #f0f5f7;
-  border-color: #646cff;
+  border-color: #ff4d6d;
 }
 
 button {

@@ -54,10 +54,10 @@ const BasicHeader = ({ icon, title, children }) => {
         {children ? children : (
             <nav className='basic-header__nav'>
                 {navItems.map((item, index) => (
-                    <a key={index} href
+                    <Link key={index} to
                     ={item.link} className='basic-header__nav-item'>
                         {item.title}
-                    </a>
+                    </Link>
                 ))}
             </nav>
         )}

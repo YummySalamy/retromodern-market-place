@@ -1,0 +1,6 @@
+.main-render {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  animation: fadeIn 1.5s;
+}

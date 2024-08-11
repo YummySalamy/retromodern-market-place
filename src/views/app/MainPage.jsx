@@ -1,5 +1,4 @@
 import React from "react";
-import BasicHeader from "../../components/headers/BasicHeader";
 import SearchHero from "../../components/heros/SearchHero";
 import TwoColumnsHero from "../../components/heros/TwoColumnsHero";
 import PopularProducts from "../../components/products/PopularProducts";
@@ -8,7 +7,6 @@ import './assets/App.css'
 const MainPage = () => {
     return (
         <div className='main-page'>
-            <BasicHeader icon='🚀' title='MarketPlace' />
             <TwoColumnsHero title='Welcome to MarketPlace' subtitle='The best place to buy and sell products'>
                 <div className='two-columns-hero__content'>
                 <p>MarketPlace is a platform where you can buy and sell products. We have a wide range of products available for you to choose from.</p>
